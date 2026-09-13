@@ -1,0 +1,16 @@
+{
+  "idf.currentSetup": "/home/gfnow/.espressif/v6.0.2/esp-idf",
+  "idf.flashType": "JTAG",
+  "idf.port": "/dev/ttyACM0",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ],
+  "idf.customExtraVars": {},
+  "clangd.path": "/home/gfnow/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/gfnow/Projects/light_based_toggle/build"
+  ]
+}
